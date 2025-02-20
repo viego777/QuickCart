@@ -49,7 +49,7 @@ export const AppContextProvider = (props) => {
         setUserData(userDummyData)
 
        }catch (error){
-
+        toast.error(error.message)
        }
     }
 
